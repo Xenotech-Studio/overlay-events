@@ -1,0 +1,17 @@
+{
+  "name": "@shared/overlay-events",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "check": "node --check overlayEvents.js && node --check tests/overlayEvents.browser.js"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.1",
+    "react": "^19.2.0"
+  }
+}
